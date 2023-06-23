@@ -32,7 +32,41 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/** Link and Nav Link style */
+.navbar {
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.nav-bar-link {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.nav-bar-link-sub {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+
+.nav-bar-link:hover {
+  color: green;
+  text-decoration: none;
+}
+
+/** Active Link 
+.navbar .active {
+  color: skyblue;
+  background-color: #282c34;
+}
+*/
